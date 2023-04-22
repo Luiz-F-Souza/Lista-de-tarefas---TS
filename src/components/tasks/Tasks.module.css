@@ -1,0 +1,28 @@
+.container{
+  max-width: var(--container-max-w);
+  margin: 4rem auto;
+}
+
+.container .header{
+  display: flex;
+  justify-content: space-between;
+  color: var(--blue);
+  font-weight: bold;
+  font-size: var(--font-size-md);
+  line-height: 1.065rem;
+  padding-bottom: 1.625rem;
+}
+
+.container .header p{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.container .header p span{
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: var(--font-size-sm);
+}

@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  gap: .75rem;
+}
+
+.container .svg{
+  margin-top: 4rem;
+}
+
+.container .noTasksMsg{
+  text-align: center;
+  color: var(--gray-300);
+  margin-top: 1rem;
+  line-height: 1.4rem;
+}

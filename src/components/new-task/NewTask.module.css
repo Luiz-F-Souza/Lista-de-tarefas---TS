@@ -1,0 +1,35 @@
+
+
+.container{
+  --input-height: 3.375rem;
+
+  max-width: var(--container-max-w);
+  margin-inline: auto;
+  margin-top: calc((var(--input-height) / 2) * -1);
+  display: flex;
+  gap: .5rem
+}
+
+.container .newTaskInput{
+  flex-grow: 1;
+  padding: 1rem;
+  min-height: var(--input-height);
+  border-radius: var(--border-radius-md);
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  outline: transparent;
+  border: 1px solid var(--gray-700);
+}
+
+.container .submitBtn{
+  width: 5.625rem;
+  border-radius: var(--border-radius-md);
+  background-color: var(--blue-dark);
+  border: none;
+  outline: transparent;
+  color: var(--gray-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
