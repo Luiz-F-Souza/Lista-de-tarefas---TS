@@ -36,7 +36,7 @@ function TasksList({ listOfTasks, onListOfTypesChange }: TasksListProps) {
     <article className={styles.container}>
 
       {listOfTasks.length === 0 &&
-        <div>
+        <div className={styles.noTaskContainer}>
           <img className={styles.svg} src={clipboardSvgPath} alt="" />
 
           <p className={styles.noTasksMsg}>
